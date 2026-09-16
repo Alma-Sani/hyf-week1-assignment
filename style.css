@@ -30,3 +30,14 @@ nav {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.card {
+  animation: FadeIn 1s ease-in;
+}
