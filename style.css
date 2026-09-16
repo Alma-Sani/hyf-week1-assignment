@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #14b8a6;
+  --spacing: 20px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--primary-color);
+}
+nav {
+  display: flex;
+  gap: 20px;
+}
+.products {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing);
+}
+@media (min-width: 700px) {
+  .products {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1250px) {
+  .products {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

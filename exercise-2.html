@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Price</th>
+          <th>In Stock</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Coffee</td>
+          <td>50 DKK</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Apple Cake</td>
+          <td>70 DKK</td>
+          <td>Yes</td>
+        </tr>
+        <tr>
+          <td>Sandwich</td>
+          <td>100 DKK</td>
+          <td>Yes</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Contact Form</h2>
+    <form>
+      <fieldset>
+        <legend>Contact Information</legend>
+        <label for="name"
+          >Enter your name: <input type="text" id="name" required
+        /></label>
+        <label for="email"
+          >Enter your email: <input type="email" id="email" required
+        /></label>
+        <label for="message"
+          >Enter your message: <textarea id="message"></textarea>
+        </label>
+        <label for="topic">Choose your topic:</label>
+        <select id="topic">
+          <option>Job</option>
+          <option>Course</option>
+          <option>Other</option>
+        </select>
+      </fieldset>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
